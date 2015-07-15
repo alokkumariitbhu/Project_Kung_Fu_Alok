@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b55b5e19-3e6e-4ecf-a63d-b849b244beed" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/savepo/savepo/urls.py" afterPath="$PROJECT_DIR$/savepo/savepo/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/savepo/static/js/po/controller.js" afterPath="$PROJECT_DIR$/savepo/static/js/po/controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/savepo/po/views.py" afterPath="$PROJECT_DIR$/savepo/po/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Dreamworks.iws" />
@@ -37,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/savepo/savepo/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.305794" vertical-offset="0" max-vertical-offset="932">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
               <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
               <folding>
                 <element signature="e#615#656#0" expanded="true" />
@@ -64,8 +65,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/savepo/po/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="373" max-vertical-offset="1335">
+              <caret line="75" column="31" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="31" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -86,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="controller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/savepo/static/js/po/controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="763" max-vertical-offset="2430">
-              <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.82081544" vertical-offset="765" max-vertical-offset="1770">
+              <caret line="102" column="92" selection-start-line="102" selection-start-column="92" selection-end-line="102" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -116,11 +117,11 @@
       <list>
         <option value="$PROJECT_DIR$/savepo/savepo/settings.py" />
         <option value="$PROJECT_DIR$/savepo/static/js/po/app.js" />
-        <option value="$PROJECT_DIR$/savepo/po/views.py" />
         <option value="$PROJECT_DIR$/savepo/templates/po/index.html" />
-        <option value="$PROJECT_DIR$/savepo/static/js/po/controller.js" />
         <option value="$PROJECT_DIR$/savepo/po/urls.py" />
         <option value="$PROJECT_DIR$/savepo/savepo/urls.py" />
+        <option value="$PROJECT_DIR$/savepo/po/views.py" />
+        <option value="$PROJECT_DIR$/savepo/static/js/po/controller.js" />
       </list>
     </option>
   </component>
@@ -466,7 +467,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="-4" width="1861" height="1084" extended-state="6" />
+    <frame x="59" y="-4" width="1861" height="1084" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -615,14 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/savepo/static/js/po/controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="763" max-vertical-offset="2430">
-          <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/savepo/templates/po/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.022472" vertical-offset="0" max-vertical-offset="1350">
@@ -630,6 +623,16 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/savepo/savepo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding>
+            <element signature="e#615#656#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -646,21 +649,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/savepo/po/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="373" max-vertical-offset="1335">
+          <caret line="75" column="31" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="31" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/savepo/savepo/urls.py">
+    <entry file="file://$PROJECT_DIR$/savepo/static/js/po/controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.305794" vertical-offset="0" max-vertical-offset="932">
-          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-          <folding>
-            <element signature="e#615#656#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.82081544" vertical-offset="765" max-vertical-offset="1770">
+          <caret line="102" column="92" selection-start-line="102" selection-start-column="92" selection-end-line="102" selection-end-column="92" />
+          <folding />
         </state>
       </provider>
     </entry>

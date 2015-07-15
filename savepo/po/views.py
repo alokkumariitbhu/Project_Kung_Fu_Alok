@@ -67,11 +67,13 @@ def get_coordinates(request):
         print response
         if response['results']:
             location = response['results'][0]['geometry']['location']
+            formatted_address = response['results'][0]['formatted_address']
             latitude, longitude = location['lat'], location['lng']
             print query, latitude, longitude
             response['status'] = 1
             response['latitude']=latitude
             response['longitude']=longitude
+            response['address']=formatted_address
         else:
             print query, "<no results>"
     except:
