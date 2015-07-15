@@ -15,8 +15,12 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-
+from django.http  import HttpResponseRedirect
 urlpatterns = [
+    url(r'^$', lambda r: HttpResponseRedirect('po/')),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^po/', include('po.urls')), # ADD THIS NEW TUPLE!
+    url(r'^po/', include('po.urls'),
+
+    #url(r'^', 'po.views.index') # ADD THIS NEW TUPLE!
+    )# ADD THIS NEW TUPLE!
 ]
