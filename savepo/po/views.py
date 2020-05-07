@@ -23,6 +23,7 @@ def get_address(request):
         latlong = request.GET.get("latitude") + "," + request.GET.get("longitude")
 
         print latlong
+        
         query = latlong.encode('utf-8')
         print query
         params = {
